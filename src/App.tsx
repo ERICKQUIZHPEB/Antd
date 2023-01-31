@@ -1,22 +1,20 @@
 import React from 'react';
-import { Card } from 'antd';
-//import Gallery from "./Gallery";
-//import {Profile} from './Gallery';
-const { Meta } = Card;
+//import Gallery from './Gallery';
+//import Avatar from './Avatar';
+import TodoList from './Todolist';
 
 //export default function App(){
- // return(
-   // <Profile/>
-  //);
+// return(
+// <Profile/>
+//);
 //}
 const App: React.FC = () => (
-  <Card
-    hoverable
-    style={{ width: 240 }}
-    cover={<img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}
-  >
-    <Meta title="Europe Street beat" description="www.instagram.com" />
-  </Card>
+    //<Gallery/>
+    //<Avatar />
+    <TodoList name={'Gregorito Y. Zara'} theme={{
+        backgroundColor: 'black',
+        color: 'pink'
+    }}/>
 );
 
 export default App;
